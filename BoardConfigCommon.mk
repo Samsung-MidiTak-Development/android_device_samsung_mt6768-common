@@ -123,5 +123,8 @@ DEVICE_MATRIX_FILE += $(COMMON_PATH)/compatibility_matrix.xml
 # VNDK
 BOARD_VNDK_VERSION := current
 
+# Wifi
+WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
+
 # Inherit the proprietary files
 include vendor/samsung/mt6768-common/BoardConfigVendor.mk
