@@ -194,6 +194,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(COMMON_PATH)
 
+# Vibrator
+PRODUCT_PACKAGES += \
+    android.hardware.vibrator-service.samsung
+
 # Wi-Fi
 PRODUCT_PACKAGES += \
     libkeystore-wifi-hidl \
