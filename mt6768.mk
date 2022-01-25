@@ -15,6 +15,10 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 # Dynamic Partition
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
+# Bluetooth
+PRODUCT_PACKAGES += \
+    android.hardware.bluetooth.audio-impl
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.1-service
