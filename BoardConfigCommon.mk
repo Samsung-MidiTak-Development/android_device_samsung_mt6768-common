@@ -98,6 +98,7 @@ BOARD_ROOT_EXTRA_FOLDERS += metadata
 TARGET_BOARD_PLATFORM := mt6768
 
 # Properties
+TARGET_PRODUCT_PROP += $(COMMON_PATH)/product.prop
 TARGET_VENDOR_PROP += $(COMMON_PATH)/vendor.prop
 
 # Recovery
