@@ -197,6 +197,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(COMMON_PATH)
 
+# USB
+PRODUCT_PACKAGES += \
+    android.hardware.usb-service.samsung
+
 # Vibrator
 PRODUCT_PACKAGES += \
     android.hardware.vibrator-service.samsung
