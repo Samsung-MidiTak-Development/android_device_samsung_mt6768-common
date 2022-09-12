@@ -21,6 +21,10 @@ TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := generic
 TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a55
 
+# Android Verified Boot
+BOARD_AVB_ENABLE := true
+BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
+
 # Bootloader
 BOARD_VENDOR := samsung
 TARGET_BOOTLOADER_BOARD_NAME := mt6768
