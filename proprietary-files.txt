@@ -1097,12 +1097,10 @@ vendor/etc/virtual-spn-conf-by-imsi.xml
 
 # Sensors
 vendor/etc/sensors/hals.conf
-vendor/lib/libsensorndkbridge.so
 vendor/lib/sensors.grip.so
 vendor/lib/sensors.inputvirtual.so
 vendor/lib/sensors.sensorhub.so
 vendor/lib64/libhwm.so
-vendor/lib64/libsensorndkbridge.so
 vendor/lib64/sensors.grip.so
 vendor/lib64/sensors.inputvirtual.so
 vendor/lib64/sensors.sensorhub.so
