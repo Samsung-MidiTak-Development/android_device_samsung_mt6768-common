@@ -104,6 +104,10 @@ PRODUCT_PACKAGES += \
     init.project.rc \
     ueventd.mt6768.rc
 
+# Sensors
+PRODUCT_PACKAGES += \
+    libsensorndkbridge
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(COMMON_PATH)
