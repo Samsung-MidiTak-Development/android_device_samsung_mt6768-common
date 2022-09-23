@@ -130,6 +130,9 @@ ro.vendor.pq.mtk_disp_game_pq_support=0
 ro.vendor.pq.mtk_backlight_smooth_support=1
 ro.vendor.pq.mtk_ultra_dimming_support=0
 ro.vendor.pq.mtk_blulight_def_support=0
+debug.hwui.renderer=skiagl
+debug.renderengine.backend=skiaglthreaded
+renderthread.skia.reduceopstasksplitting=true
 
 # LMK
 ro.lmk.psi_complete_stall_ms=150
