@@ -132,6 +132,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.memtrack-service.samsung-mali
 
+# Overlay
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-lineage
+
 # Fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
