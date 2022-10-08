@@ -90,6 +90,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     fastbootd
 
+# Properties
+include $(LOCAL_PATH)/vendor_logtag.mk
+
 # Rootdir
 PRODUCT_PACKAGES += \
     fstab.mt6768 \
