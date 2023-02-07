@@ -252,3 +252,6 @@ ro.vendor.mtk_teegris_tee_support=1
 ro.crypto.volume.filenames_mode=aes-256-cts
 ro.security.keystore.keytype=sakv2,gak
 ro.mtk_key_manager_support=1
+
+# Zygote
+zygote.critical_window.minute=10
