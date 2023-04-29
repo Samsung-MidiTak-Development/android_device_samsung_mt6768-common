@@ -148,6 +148,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.log.tag.RfxTimer=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.RfxObject=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.SlotQueueEntry=$(VENDOR_LOG_LEVEL) \
+    persist.log.tag.SpeechMessengerNormal=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.RfxAction=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.RFX=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.RpRadioMessage=$(VENDOR_LOG_LEVEL) \
