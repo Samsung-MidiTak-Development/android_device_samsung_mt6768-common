@@ -42,6 +42,9 @@ TARGET_NO_BOOTLOADER := true
 # Platform
 TARGET_BOARD_PLATFORM := mt6768
 
+# Recovery
+TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/rootdir/fstab.mt6768
+
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
 
