@@ -1,0 +1,2 @@
+# Graphics
+genfscon sysfs /devices/platform/13040000.mali                                                                                  u:object_r:sysfs_gpu:s0
