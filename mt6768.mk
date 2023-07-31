@@ -15,6 +15,22 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 # Dynamic Partition
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
+# Audio
+PRODUCT_PACKAGES += \
+    android.hardware.audio.service \
+    android.hardware.audio@7.0-impl \
+    android.hardware.audio.effect@7.0-impl \
+
+PRODUCT_PACKAGES += \
+    audio.bluetooth.default \
+    audio.r_submix.default \
+    audio.usb.default
+
+PRODUCT_PACKAGES += \
+    libtinycompress \
+    libtinyxml \
+    tinymix
+
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio-impl
