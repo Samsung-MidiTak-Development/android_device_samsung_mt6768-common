@@ -9,6 +9,9 @@ COMMON_PATH := device/samsung/mt6768-common
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
+# Shipping API Level
+PRODUCT_SHIPPING_API_LEVEL := 30
+
 # Dynamic Partition
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
