@@ -722,6 +722,24 @@ vendor/lib64/libgf_in_system_lib.so
 vendor/lib64/libqfp_sensortest.so
 vendor/lib64/libsynaFpSensorTestNwd.so
 
+# Firmware
+vendor/firmware/BT_FW.cfg
+vendor/firmware/dax_param.bin
+vendor/firmware/fm_cust.cfg
+vendor/firmware/mt6631_fm_channel_param.dat
+vendor/firmware/mt6631_fm_v1_coeff.bin
+vendor/firmware/mt6631_fm_v1_patch.bin
+vendor/firmware/remoteproc_scp
+vendor/firmware/soc1_0_patch_mcu_1a_1_hdr.bin
+vendor/firmware/soc1_0_ram_bt_1a_1_hdr.bin
+vendor/firmware/soc1_0_ram_mcu_1a_1_hdr.bin
+vendor/firmware/soc1_0_ram_wifi_1a_1_hdr.bin
+vendor/firmware/txpowerctrl.cfg
+vendor/firmware/WIFI
+vendor/firmware/wifi.cfg
+vendor/firmware/WIFI_RAM_CODE_soc1_0_1a_1.bin
+vendor/firmware/WMT_SOC.cfg
+
 # Gatekeeper
 vendor/lib/hw/gatekeeper.mt6769t.so
 vendor/lib64/hw/gatekeeper.mt6769t.so
