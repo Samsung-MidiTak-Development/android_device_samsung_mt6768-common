@@ -97,6 +97,9 @@ BOARD_ROOT_EXTRA_FOLDERS += metadata
 # Platform
 TARGET_BOARD_PLATFORM := mt6768
 
+# Properties
+TARGET_VENDOR_PROP += $(COMMON_PATH)/vendor.prop
+
 # Recovery
 TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/rootdir/fstab.mt6768
 TARGET_USERIMAGES_USE_F2FS := true
