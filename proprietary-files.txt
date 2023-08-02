@@ -520,7 +520,6 @@ vendor/lib64/libcamdrv_twin.so
 vendor/lib64/libcamera2ndk_vendor.so
 vendor/lib64/libcameracustom.eis.so
 vendor/lib64/libcameracustom.plugin.so
-vendor/lib64/libcameracustom.so
 vendor/lib64/libeffecthal.base.so
 vendor/lib64/libfeature.face.so
 vendor/lib64/libfeature.stereo.provider.so
