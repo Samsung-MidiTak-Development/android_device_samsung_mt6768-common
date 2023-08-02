@@ -194,6 +194,7 @@ include $(LOCAL_PATH)/vendor_logtag.mk
 # Rootdir
 PRODUCT_PACKAGES += \
     fstab.mt6768 \
+    fstab.ramdisk \
     init.ago.rc \
     init.connectivity.rc \
     init.modem.rc \
