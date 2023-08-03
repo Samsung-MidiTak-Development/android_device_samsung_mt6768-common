@@ -1098,24 +1098,20 @@ vendor/lib/libvpud_vcodec.so
 vendor/lib64/libvpu5.so
 
 # WiFi
-vendor/bin/hw/hostapd
 vendor/bin/hw/macloader
 vendor/bin/hw/wpa_supplicant
-vendor/bin/hostapd_cli
 vendor/bin/stp_dump3
 vendor/bin/wlan_assistant
 vendor/bin/wmt_launcher
 vendor/bin/wmt_loader
 vendor/bin/wpa_cli
 vendor/etc/init/android.hardware.wifi.supplicant-service.rc
-vendor/etc/init/hostapd.android.rc
 vendor/etc/init/wifi.rc:vendor/etc/init/wifi_sec.rc
 vendor/etc/init/wifi_mtk.rc
 vendor/etc/init/init.wlan_drv.rc
 vendor/etc/init/init.wmt_drv.rc
 vendor/etc/init/wlan_assistant.rc
 -vendor/etc/vintf/manifest/android.hardware.wifi.supplicant.xml
--vendor/etc/vintf/manifest/android.hardware.wifi.hostapd.xml
 vendor/etc/wlan_common_rc
 vendor/etc/wlan_vendor_rc
 vendor/lib/libapmonitor_vendor.so
@@ -1125,7 +1121,6 @@ vendor/lib64/libapmonitor_vendor.so
 -vendor/lib64/libwifi-hal.so:vendor/lib64/libwifi-hal-mtk.so
 vendor/lib64/libwpa_client.so
 vendor/lib64/vendor.mediatek.hardware.apmonitor@2.0.so
-vendor/lib64/vendor.samsung.hardware.wifi.hostapd@4.0.so
 vendor/lib64/vendor.samsung.hardware.wifi.supplicant@3.0.so
 vendor/lib64/vendor.samsung.hardware.wifi.supplicant@3.1.so
 
