@@ -1,2 +1,7 @@
+# Radio
+vendor.samsung.hardware.radio.bridge::ISehBridge            u:object_r:hal_telephony_hwservice:s0
+vendor.samsung.hardware.radio::ISehRadio                    u:object_r:hal_telephony_hwservice:s0
+vendor.samsung.hardware.radio.channel::ISehChannel          u:object_r:hal_telephony_hwservice:s0
+
 # Wifi
 vendor.samsung.hardware.wifi.supplicant::ISehSupplicant u:object_r:hal_wifi_supplicant_hwservice:s0
