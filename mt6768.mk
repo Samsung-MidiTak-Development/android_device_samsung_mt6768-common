@@ -52,6 +52,16 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio-impl
 
+PRODUCT_PACKAGES += \
+    android.hardware.bluetooth@1.0.vendor \
+    android.hardware.bluetooth@1.1.vendor
+
+# Camera
+PRODUCT_PACKAGES += \
+    android.hardware.camera.common@1.0.vendor \
+    android.hardware.camera.device@3.6.vendor \
+    android.hardware.camera.provider@2.6.vendor
+
 # Charger
 PRODUCT_PACKAGES += \
     charger_res_images_vendor
@@ -77,10 +87,19 @@ PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-impl \
     android.hardware.gatekeeper@1.0-service
 
+# GPS
+PRODUCT_PACKAGES += \
+    android.hardware.gnss@2.1.vendor \
+    android.hardware.gnss.measurement_corrections@1.1.vendor \
+    android.hardware.gnss.visibility_control@1.0.vendor
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health-service.samsung \
     android.hardware.health-service.samsung-recovery
+
+PRODUCT_PACKAGES += \
+    android.hardware.health@2.1
 
 # HIDL
 PRODUCT_PACKAGES += \
@@ -131,6 +150,10 @@ PRODUCT_COPY_FILES += \
 # Memtrack
 PRODUCT_PACKAGES += \
     android.hardware.memtrack-service.samsung-mali
+
+# Neural Network
+PRODUCT_PACKAGES += \
+    android.hardware.neuralnetworks@1.3
 
 # Overlay
 PRODUCT_ENFORCE_RRO_TARGETS := *
@@ -188,8 +211,19 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.vulkan.deqp.level-2020-03-01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.vulkan.deqp.level.xml \
     frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.xml
 
+# Power
+PRODUCT_PACKAGES += \
+    android.hardware.power@1.3.vendor
+
 # Properties
 include $(LOCAL_PATH)/vendor_logtag.mk
+
+# Radio
+PRODUCT_PACKAGES += \
+    android.hardware.radio@1.5.vendor \
+    android.hardware.radio.config@1.2.vendor \
+    android.hardware.radio.deprecated@1.0.vendor \
+    android.hardware.radio-V1.4-java
 
 # Rootdir
 PRODUCT_PACKAGES += \
@@ -210,6 +244,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.sensors-service.samsung-multihal
 
+PRODUCT_PACKAGES += \
+    android.hardware.sensors@2.1.vendor
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(COMMON_PATH) \
@@ -226,6 +263,10 @@ PRODUCT_PACKAGES += \
 # Wi-Fi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service-lazy.mt6768
+
+PRODUCT_PACKAGES += \
+    android.hardware.wifi.supplicant@1.4.vendor \
+    android.hardware.wifi.hostapd@1.2.vendor
 
 PRODUCT_PACKAGES += \
     libkeystore-wifi-hidl \
