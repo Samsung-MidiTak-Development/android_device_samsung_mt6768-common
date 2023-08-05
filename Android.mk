@@ -19,4 +19,21 @@ $(VULKAN_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
 
 ALL_DEFAULT_INSTALLED_MODULES += $(VULKAN_SYMLINKS)
 
+GRAPHICS_SYMLINKS := \
+    $(TARGET_OUT_VENDOR)/lib \
+    $(TARGET_OUT_VENDOR)/lib64
+
+$(GRAPHICS_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
+	$(hide) echo "Creating graphics symlinks"
+	@ln -sf /vendor/lib/mt6768/libdpframework.so $(TARGET_OUT_VENDOR)/lib/libdpframework.so
+	@ln -sf /vendor/lib/mt6768/libmtk_drvb.so $(TARGET_OUT_VENDOR)/lib/libmtk_drvb.so
+	@ln -sf /vendor/lib/mt6768/libnir_neon_driver.so $(TARGET_OUT_VENDOR)/lib/libnir_neon_driver.so
+	@ln -sf /vendor/lib/mt6768/libpq_prot.so $(TARGET_OUT_VENDOR)/lib/libpq_prot.so
+	@ln -sf /vendor/lib64/mt6768/libdpframework.so $(TARGET_OUT_VENDOR)/lib64/libdpframework.so
+	@ln -sf /vendor/lib64/mt6768/libmtk_drvb.so $(TARGET_OUT_VENDOR)/lib64/libmtk_drvb.so
+	@ln -sf /vendor/lib64/mt6768/libnir_neon_driver.so $(TARGET_OUT_VENDOR)/lib64/libnir_neon_driver.so
+	@ln -sf /vendor/lib64/mt6768/libpq_prot.so $(TARGET_OUT_VENDOR)/lib64/libpq_prot.so
+
+ALL_DEFAULT_INSTALLED_MODULES += $(GRAPHICS_SYMLINKS)
+
 endif
