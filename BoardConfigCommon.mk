@@ -124,8 +124,6 @@ DEVICE_MATRIX_FILE += $(COMMON_PATH)/compatibility_matrix.xml
 BOARD_VNDK_VERSION := current
 
 # Wifi
-WPA_SUPPLICANT_VERSION := VER_0_8_X
-BOARD_HOSTAPD_DRIVER := NL80211
 WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
 
 # Inherit the proprietary files
