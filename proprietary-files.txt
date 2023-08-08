@@ -950,6 +950,7 @@ vendor/etc/fstb.cfg
 vendor/etc/task_profiles.json
 vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc
 vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc
+-vendor/etc/vintf/manifest/power-default.xml
 vendor/lib/hw/vendor.mediatek.hardware.mtkpower@1.2-impl.so
 vendor/lib/libnwk_opt_halwrap_vendor.so
 vendor/lib/libmmprofile.so
