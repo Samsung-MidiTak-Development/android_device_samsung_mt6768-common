@@ -75,6 +75,9 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@4.0.vendor \
     android.hardware.graphics.allocator@4.0.vendor
 
+PRODUCT_PACKAGES += \
+    libdrm.vendor
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey \
