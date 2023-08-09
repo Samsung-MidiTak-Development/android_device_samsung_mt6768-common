@@ -1120,9 +1120,6 @@ vendor/lib/libmtcloader.so
 vendor/lib64/libmtcloader.so
 
 # TEEGRIS
-vendor/bin/tzdaemon
-vendor/bin/tzts_daemon
-vendor/etc/init/teegris_v4.rc
 vendor/lib/libMcClient.so
 vendor/lib/libuuid.so
 vendor/lib/libTEECommon.so
